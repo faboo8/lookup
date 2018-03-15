@@ -1,13 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Feb 21 16:01:10 2018
-
-@author: Fabian Hafner
-"""
-
-# In[ ]:
-
-
 import requests
 import re
 import itertools
@@ -72,11 +62,11 @@ class FinanzonlineLookupStrategy(AbstractLookupStrategy):
                   """)
     def SendRequest(self):
          
-        SESSION_KEYS={'tid':'wt803271g', 'benid' : 'test123456',
-                      'pin' : 'start01pwc', 'herstellerid': 'ATU66127899'} 
+        SESSION_KEYS={'tid':'?????', 'benid' : '?????',
+                      'pin' : 'start01pwc', 'herstellerid': '?????'} 
 
-        LOGIN_KEYS = {'tid':'wt803271g', 'benid' : 'test123456',
-                      'id' : '', 'uid_tn': 'ATU66127899' ,'uid': self.value['uid'], 'stufe':'2'}
+        LOGIN_KEYS = {'tid':'?????', 'benid' : '????',
+                      'id' : '', 'uid_tn': '????' ,'uid': self.value['uid'], 'stufe':'2'}
 
         SESSION_URL = 'https://finanzonline.bmf.gv.at/fonws/ws/sessionService.wsdl'
 
